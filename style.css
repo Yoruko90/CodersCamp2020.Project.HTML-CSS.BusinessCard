@@ -6,7 +6,25 @@
   body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Amaranth', serif;
+    font-family: 'Karla', sans-serif;
+  }
+  a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
   }
   
   .header {
@@ -85,6 +103,7 @@
     display: flex;
     background-color: rgb(62, 62, 62);
     justify-content: flex-end;
+    z-index: 1;
   }
 
   
@@ -117,7 +136,7 @@
   }
 /* GRID */
 .aboutMeT { grid-area: aboutMeT; }
-.aboutMeF { grid-area: aboutMeF; }
+.aboutMeF { grid-area: aboutMeF; } 
 .tech { grid-area: tech; }
 .contact { grid-area: contact; }
 .form { grid-area: form; }
@@ -126,13 +145,15 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'aboutMeF aboutMeF tech tech tech'
+    /* 'aboutMeF aboutMeF tech tech tech' */
     'aboutMeT aboutMeT tech tech tech'
     'gallery gallery gallery gallery gallery'
-    'contact contact form form form';
-  grid-gap: 10px;
+    /* 'aboutMeF form form form form' */
+    'contact form form form form';
+  /* grid-gap: 20px; */
+  /* grid-template-columns: repeat( 2, minmax(400px, 1fr) ); */
   background-color: #ffffff;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .grid-container > div {
@@ -140,19 +161,25 @@
   text-align: center;
   padding: 55px 0;
   font-size: 20px;
-  margin: 0% 2%;
+  /* margin: 0% 2%; */
   
 }
 .grid-container > .aboutMeT {
   text-align: justify;
+  margin: 0 5%;
 }
-
-
+.web{
+  height: 200px;
+}
 
 #me{
     width: 50%;
     height: auto;
     border-radius: 50%;
+}
+.grid-container > .tech {
+  text-align: justify;
+  margin: 0 5%;
 }
 .technologie {
   width: 100%;
@@ -175,6 +202,11 @@
 .react {width: 1%; background-color: #26eee4;}
 
 /* GALLERY - FLEX */
+.grid-container > .gallery {
+  /* background-color: rgb( 192, 192, 192);*/
+  background-color: rgb(45, 210, 206);
+}
+
 .row1 {
     display: flex;
     flex-wrap: wrap;
@@ -196,7 +228,7 @@
   @media (max-width: 800px) {
     .col1 {
       flex: 20%;
-      max-width: 20%;
+      max-width: 25%;
     }
   }
   
@@ -215,14 +247,14 @@
 
   /* Forms */
   .form {
-      color: #2B1E8B;
+      color: #ffffff;
       
   }
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
     resize: vertical;
     font-size: 12px;
   }
@@ -230,7 +262,7 @@
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    font-size: 12px;
+    font-size: 20px;
   }
   
   input[type=submit] {
@@ -248,8 +280,7 @@
   }
   
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border-radius: 0px;
     padding: 20px;
   }
   
@@ -278,6 +309,64 @@
       width: 100%;
       margin-top: 0;
     }
+  }
+  .grid-container > .contact {
+    /* background-color: rgb(45, 210, 206); */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb( 192, 192, 192);
+    align-items: center;
+
+  }
+  .grid-container > .form {
+    /* background-color: rgb(45, 210, 206); */
+    background-color: rgb( 192, 192, 192);
+    align-items: center;
+  }
+
+  /* Hover image author */
+  .flip-card {
+ /* margin: auto */
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    border-radius: 50%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    font-size: 20px;
   }
 
   .footer {
