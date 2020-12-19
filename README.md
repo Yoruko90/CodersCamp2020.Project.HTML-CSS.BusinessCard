@@ -42,7 +42,7 @@ Powinno to nastąpić najpóźniej o godzinie 23:59 dnia poprzedzającego prezen
 Forma prezentacji pozostaje dowolna (musi zmieścić się w 5 minutach + 5 minut na pytania). 
 Możecie przygotować jakieś slajdy, pokaz waszych talentów, czy nawet zaśpiewać — ale nie jest to konieczne. Na pewno musi zostać pokazana działająca strona internetowa, reszta wg Waszego uznania. 
 Jeśli robicie wizytówkę o sobie, to być może chcecie też opowiedzieć o swoich zainteresowaniach, żeby inni w zespole poznali Was lepiej :) ? 
-- Po prezentacji mentor Waszego zespołu oceni projekt wg kryteriów opisanych w specjalnym arkuszu — przykład takiego arkusza możecie zobaczyć [TUTAJ](https://docs.google.com/spreadsheets/d/1mjCi-oDXILKoCReqJlhGYP4NW-HVMCzvdcIy6ntnsog/edit?usp=sharing). 
+- Po prezentacji mentor Waszego zespołu oceni projekt wg kryteriów opisanych w specjalnym arkuszu — przykład takiego arkusza możecie zobaczyć [TUTAJ](https:// ). 
 Pamiętajcie też odpowiednio opracować README.md Waszego projektu, tak aby prezentowało kto, co, jak i dlaczego zostało wykonane.
 Zawartość, którą macie tutaj aktualnie (to co teraz czytacie) można usunąć — znajdziecie ją zawsze w oryginalnym repozytorium, które forkowaliście.
 - Po zrecenzowaniu waszych projektów mentor powinien przekazać każdemu jego ocenę punktową i feedback jako uzasadnienie.     

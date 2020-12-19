@@ -10,15 +10,15 @@
     content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="header">    
     
     <div class="header-text">
-      <h1>I'm your future Front-end Developer</h1>
+      <h1>I'm your future </br>
+         Front-end Developer</h1>
     </div>
   </div>
   
@@ -26,19 +26,19 @@
   <!-- Navigation Bar -->
   <div class="sticky">
     <div class="navbar">
-      <a href="#me">O mnie</a>
+      <a href="#aboutMe">O mnie</a>
       <a href="#technology">Technologie</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Kontakt</a>
     </div> 
   
     <!--Grid main-->
-    <div class="grid-container">
-      <div class="aboutMeF"><img id="me" src="anna.jpg"  alt="zdjęcie_autorki">
-      </div>
+    <div class="grid-container"> 
+      <!-- <div class="aboutMeF"><img id="me" src="anna.jpg"  alt="zdjęcie_autorki">
+      </div> -->
       <div class="aboutMeT" id="aboutMe">
-
-        <span>Hej! Nazywam się Anna Szewczyk i jestem front-end developerem.</span> </br> </br>
+        <h1> </h1>
+        <span>Hej! Nazywam się <strong> Anna Szewczyk </strong> i jestem front-end developerem.</span> </br> </br>
         W mojej pracy szczególnie wazne jest dla mnie dbanie o szczegóły, jak i kontakt z klientem. </br>
         Każdy nowy projekt do dla mnie cenne doswiadczenie, dlatego nie straszne mi różnorodne projekty.</br>
         Jestem absolwentką Uniwersytetu Łódźkiego. Skończyłam studia o kierunku Informatyka, specjalizacja Bazy Danych, ze stopniem licencjata.</br>
@@ -46,7 +46,7 @@
 
         W wolnych chwilach uwielbiam podróżować, czytać kryminały, i spędzać czas z rodziną.</br>
       </div>
-      <div class="tech" id="technology"> Technologie
+      <div class="tech" id="technology"> <h2>Technologie</h2> 
         <p>HTML</p>
         <div class="technologie">
           <div class="skills html">95%</div>
@@ -77,47 +77,53 @@
           <div class="skills react">1%</div>
         </div>
       </div>
-      <div class="gallery" id="portfolio">Portfolio
+      <div class="gallery" id="portfolio"> <h2>Portfolio</h2>
         <div class="row1">
           <div class="col1">
-            <img src="cats/cat7.jpg" alt="kot">
-            <img src="cats/cat2.jpg" alt="kot">
-            <img src="cats/cat5.jpg" alt="kot">
-            <img src="cats/cat6.jpg" alt="kot">
+            <img class="web" src="web/web1.jpg" alt="project_web">
+            <img class="web" src="web/web2.jpg" alt="project_web">
           </div>
 
           <div class="col1">
-            <img src="cats/cat2.jpg" alt="kot">
-            <img src="cats/cat5.jpg" alt="kot">
-            <img src="cats/cat6.jpg" alt="kot">
-            <img src="cats/cat7.jpg" alt="kot">
+            <img class="web" src="web/web3.jpg" alt="project_web">
+            <img class="web" src="web/web4.jpg" alt="project_web">  
           </div>
 
           <div class="col1">
-            <img src="cats/cat2.jpg" alt="kot">
-            <img src="cats/cat7.jpg" alt="kot">
-            <img src="cats/cat6.jpg" alt="kot">
-            <img src="cats/cat5.jpg" alt="kot">
+            <img class="web" src="web/web5.jpg" alt="project_web">
+            <img class="web" src="web/web6.jpg" alt="project_web">
           </div>
 
           <div class="col1">
-            <img src="cats/cat7.jpg" alt="kot">
-            <img src="cats/cat2.jpg" alt="kot">
-            <img src="cats/cat5.jpg" alt="kot">
-            <img src="cats/cat6.jpg" alt="kot">
+            <img class="web" src="web/web7.jpg" alt="project_web">
+            <img class="web" src="web/web8.jpg" alt="project_web">
           </div>
-
         </div>
       </div>
-      <div class="contact" id="contact"> Kontakt </br>
+      <div class="contact" id="contact"> 
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img id="me" src="anna.jpg" alt="Avatar"style="width:200px;height:200px; ">
+            </div>
+            <div class="flip-card-back">
+              <h1>Anna Szewczyk</h1> 
+            </div>
+          </div>
+        </div>
+      
+<!--         
+        <img id="me" src="anna.jpg"  alt="zdjęcie_autorki"> </br>  -->
+        Kontakt </br></br>
+
         <a href="https://github.com/Yoruko90"><img class="icon" src=icon/GitHub.png> Github </a></br>
         <a href="https://www.linkedin.com/in/anna-szewczyk-it/"><img class="icon" src=icon/linkedin-logo.png> Linkedin </a></br>
         <a href="https://www.facebook.com/Yorukochan/"><img class="icon" src=icon/facebook.png> Facebook </a></br>
-        <a href="#me"><img class="icon" src=icon/gmail.png> Mail</a></br>
+        <a href="mailto:yoruko1990@gmail.com"><img class="icon" src=icon/gmail.png> Mail</a></br>
       </div>
-      <div class="form"> Formularz
+      <div class="form"><h3> Formularz </h3> 
         <div class="container">
-          <form action="/action_page.php">
+          <form action=""> 
             <div class="row">
               <div class="col-25">
                 <label for="fname">Imię i nazwisko</label>
@@ -160,7 +166,7 @@
     </div>
   </div>
    <!-- Footer -->
-  <div class="footer">Footer</div>
+  <div class="footer">Copyrights © 2020 Anna Szewczyk</div>
 </body>
 
 </html>
