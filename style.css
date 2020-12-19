@@ -1,20 +1,20 @@
 * {
     box-sizing: border-box;
-  }
+}
   
-  /* Style the body */
-  body, html {
+/* Style the body */
+body, html {
     height: 100%;
     margin: 0;
     font-family: 'Karla', sans-serif;
-  }
-  a:link {
-    color: rgb(255, 255, 255);
-  }
-  
-  /* visited link */
-  a:visited {
+}
+a:link {
     color: rgb(0, 0, 0);
+}
+  
+/* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
   }
   
   /* mouse over link */
@@ -24,7 +24,7 @@
   
   /* selected link */
   a:active {
-    color: blue;
+    color:  rgb(255, 255, 255);
   }
   
   .header {
@@ -95,19 +95,15 @@
   padding: 20px;
   text-align: center;
 }
-  
-  /* Style the top navigation bar */ 
-  .navbar {
-    position: sticky;
-    top: 0;
-    display: flex;
-    background-color: rgb(62, 62, 62);
-    justify-content: flex-end;
-    z-index: 1;
-  }
-
-  
-  
+/* Style the top navigation bar */ 
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: rgb(62, 62, 62);
+  justify-content: flex-end;
+  z-index: 1;
+}
   /* Style the navigation bar links */
   .navbar a {
     color: white;
