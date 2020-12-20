@@ -23,7 +23,7 @@
 
 Projekt tworzony w Visual Studio Code Version 1.51.1.
 
-## Link do projektu:
+## Link do Projektu:
 * [Wizytówka](https://yoruko90.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/ "Anna Szewczyk - Wizytówka")
 * [Repozytorium](https://github.com/Yoruko90/CodersCamp2020.Project.HTML-CSS.BusinessCard/ "Repozytorium")
 
@@ -119,7 +119,7 @@ Poza wymienionymi sekcjami na stronie znajduje się pełnoekranowy header, menu 
 ## Testowane przeglądarki:
     
 * Google Chrome Wersja 87.0.4280.88 (64-bitowa) 
-* Google Chrome Wersja 87.0.4280.101 (Android 10) 
+* Google Chrome Wersja 87.0.4280.101 (Android) 
 * Firefox Wersja: 84.0 (64 bity)
 * Safari Wersja 13.0.4 (15608.4.9.1.3)
 * Microsoft Edge  Wersja 87.0.664.66 (wersja 64-bitowa)
